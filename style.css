@@ -1,0 +1,272 @@
+body
+{
+    background-color: #1F1F74;
+}
+@font-face {
+    font-family:"Rain";
+    src: local("Rain"),
+    url(rain.otf)
+}
+
+@font-face {
+    font-family: "KlavikaBoldBold";
+    src: url(KlavikaBoldBold.otf);
+}
+
+@font-face {
+    font-family:"JosefinSans-Regular";
+    src: url(JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "JosefinSans-SemiBold";
+    src: url(JosefinSans-SemiBold.ttf);
+}
+.header
+{
+    position: absolute;
+    font-family: "Rain" ;
+    color: white;
+    left: 1030px;
+    top: 140px;
+    z-index: 1;
+    letter-spacing: 0.1em;
+    
+}
+
+.line
+{
+    top: 10px;
+    left: -55px;
+    width: 450%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    transform: translateY(-50%);
+    z-index: -1;
+    position: relative;
+    
+}
+
+.blue-square
+{
+    width: 45px;
+    height: 45px;
+    background-color: #3080E3;
+    margin-left: -55px;
+    margin-top: -65px;
+    border-radius: 10px;
+}
+
+.j-letter
+{
+
+    position: absolute;
+    font-size: 36px;
+    transform: scaleY(-1) rotate(-180deg);
+    width: 27px;
+    top: 13px;
+    color:white;
+}
+
+.circle
+{
+    position:absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: white;
+    border-radius: 50%; 
+    bottom: 15px;
+    left:-30px;
+}
+
+
+.div1
+{
+    position: absolute;
+    width: 570px;
+    height: 560px;
+    left: 930px;
+    top: 100px;
+    background: linear-gradient(180deg, #000040 0%, #020212 100%);
+    
+}
+
+.crug-gradient
+{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 100px; 
+    height: 100px;
+    background: radial-gradient(circle, rgba(255, 31, 31, 0.2), rgba(255, 31, 31, 0.2));
+    backdrop-filter: blur(10px);
+    border-radius: 50%; 
+    box-shadow: 0 0 20px 20px rgba(255, 31, 31, 0.2);
+}
+
+.text-osnova
+{
+    position:absolute;
+    font-family: "JosefinSans-Regular";
+    font-size: 19px;
+    width: 470px;
+    height: 100px;
+    color:gray;
+    left: 976px;
+    top:250px;
+    text-align: justify; 
+    line-height: 0.6cm
+}
+
+.aside
+{
+    position:absolute;
+    font-family: "Poppins-SemiBold";
+    font-size: 16px;
+    width: 470px;
+    height: 90px; 
+    color:white;
+    left: 976px;
+    top:360px;
+    text-align: justify; 
+
+}
+
+.div2
+{
+    position: absolute;
+    width: 870px;
+    height: 480px;
+    left: 25px;
+    top: 140px;
+    background: gray;
+}
+
+.img1
+{
+    width: 860px;
+    height: 470px;
+}
+
+.follow-instruction
+{
+    position:absolute;
+    font-family: "JosefinSans-SemiBold";
+    font-size: 21px;
+    width: 470px;
+    height: 90px; 
+    color:white;
+    left: 976px;
+    top: 500px;
+    text-align: justify;
+}
+
+.f-icon
+{
+    background-image:linear-gradient(180deg, #0FDDFF 0%, #8AEFFF 100%);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    font-size: 32px;
+    font-family: "KlavikaBoldBold";
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.cube1
+{
+    position:absolute;
+    top: 550px;
+    left:978px;
+    background-color: #101230;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    z-index: 1;
+    
+}
+
+.circle1
+{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, rgba(35, 188, 198, 0.2) 20%, rgba(173, 216, 230, 0)); 
+    border-radius: 50%;
+    top:40px;
+    left:15px;
+}
+
+.inet-icon
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-image: url("www-transformed.png");
+    background-size: cover;
+    
+}
+
+.cube2
+{
+    position:absolute;
+    top: 550px;
+    left:1240px;
+    background-color: #101230;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.circle2
+{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, rgba(128, 0, 128, 0.3) 20%, rgba(221, 160, 221, 0)); 
+    border-radius: 50%; 
+    top:40px;
+    left:15px;
+}
+
+.inst-icon
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-image: url('416-4162187_careers-instagram-logo-purple-png-clipart-transformed.png');
+    background-size: cover;
+    
+}
+.cube3
+{
+    position:absolute;
+    top: 550px;
+    left:1110px;
+    background-color: #101230;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.circle3
+{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0)); 
+    border-radius: 50%; 
+    top:40px;
+    left:15px;
+}
+
